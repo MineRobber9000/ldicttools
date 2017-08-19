@@ -11,14 +11,14 @@ with open("requirements.txt") as req:
 	install_requires = [line.strip() for line in req.readlines()]
 
 setup(
-    name='directory',
+    name='ldicttools',
     version='0.1.0',
-    description='Tools for searching/indexing directories',
+    description='Tools for searching/indexing dictionaries',
     long_description=long_description,
     author='Robert Miles',
     author_email='milesrobert374@gmail.com',
-    url='https://github.com/MineRobber9000/directory',
-    keywords='novelty-calendars',
+    url='https://github.com/MineRobber9000/ldicttools',
+    keywords='index search words',
     license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -26,7 +26,7 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
     ],
-    packages=['directory'],
+    packages=['ldicttools'],
     install_requires=install_requires,
     entry_points={
         'console_scripts': [],
